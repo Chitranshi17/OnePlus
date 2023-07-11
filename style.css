@@ -1,0 +1,1253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main_container{
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding-top:  20px;
+}
+
+nav .left_nav{
+    display: flex;
+}
+nav .left_nav ul{
+    display: flex;
+}
+nav ul li{
+    margin-top: 14px;
+}  
+nav .left_nav ul li a{
+
+    margin: 15px;
+    text-decoration: none;
+    color: black;
+}
+nav .left_nav ul li{
+    list-style: none;
+}
+nav .right_nav ul{
+    display: flex;
+}
+nav .right_nav ul li a{
+    margin: 15px;
+    text-decoration: none;
+    color: black;
+}
+nav .right_nav ul li{
+    list-style: none;
+}
+nav img{
+    width:160px;
+    margin-bottom: 10px;
+    /* height: 40px; */
+}
+.left_nav ul li:hover{
+    border-bottom: 1px solid red;
+}
+.right_nav ul li:hover{
+    border-bottom: 1px solid red;
+}
+
+/* side-logo */
+.side-logo{
+     width: 50px;
+     height:50px;
+     position: fixed;
+     top: 500px;
+     left: 20px;
+     border-radius: 50px;
+     background-color: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.side-logo img{
+    width: 75%;
+    height: auto;
+    background-position: center;
+   
+    object-fit: cover;
+}
+.side-logo img:hover{
+    cursor: pointer;
+}
+.left_nav img:hover{
+    cursor: pointer;
+}
+
+/* Section start css */
+/* page  */
+.page{
+    width: 100%;
+    height: 610px;
+    background: url(/OnePlus/3_OP11-Buds-Pad-desktop.jpg.thumb.webp);
+    background-position: center;
+    background-size: cover;
+    padding-left: 35px;
+}
+.page h1{
+    font-size: 35px;
+    padding-top: 35px;
+}
+.page p{
+    font-size: 17px;
+    padding-top: 380px;
+}
+.page button{
+    width: 130px;
+    height: 30px;
+    color: white;
+    font-weight: 500;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-top: 20px;
+}
+.page a{
+    margin-left: 13px;
+    color: black;
+}
+.page h1:hover{
+    cursor: pointer;
+}
+.page p:hover{
+    cursor: pointer;
+}
+.page button:hover{
+    cursor: pointer;
+    background-color: rgb(75, 70, 70);
+}
+.page a:hover{
+    cursor: pointer;
+    color:rgb(98, 98, 215);
+}
+
+
+
+/* page - 2 */
+.page_2{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    padding-top: 70px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 50px;
+}
+.left {
+    width: 30%;
+    height: 400px;
+}
+.right {
+    width: 70%;
+    height: 400px;
+}
+.right img{
+    width: 100%;
+    height: auto;
+    /* background-image: url(/OnePlus/udon-pc-2.7.jpg.thumb.webp); */
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+.text{
+    padding-right: 30px;
+    padding-top: 10px;
+}
+.text h1{
+    font-size: 50px;
+    margin-bottom: 210px; 
+}
+.text p{
+    margin-bottom: 20px;
+}
+.text span{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.text span button{
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 48%;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+.btn1-1{
+    color: white;
+    background-color: black;
+   }
+.btn1-1:hover{
+     background-color:  rgb(35, 37, 36);
+      cursor: pointer;
+}
+.btn1-2:hover{
+    background-color: rgb(221, 215, 215);
+    cursor: pointer;
+}
+.right img:hover{
+    transition: all ease-in-out 1s;
+    cursor: pointer;
+}
+/* page - 3 css */
+
+.page_3{
+    width: 100%;
+    height: 380px;
+    display: flex;
+    margin-top: 200px;
+    /* background-color:white; */
+    padding-right: 70px;
+    padding-left: 70px;
+
+    /* margin-right: 70px; */
+    display: flex;
+}
+.l_side{
+    width: 50%;
+    height: 380px;
+    display: flex;
+    background-color:  #f8f8f8;
+    margin-right: 10px
+}
+.r_side{
+    width: 50%;
+    height: 380px;
+    display: flex;
+    background-color:  #f8f8f8;
+    margin-left: 10px;
+    
+}
+.t_side{
+    width:50% ;
+    height: 380px;
+    display: flex;
+    align-items: start;
+    /* justify-content: center; */
+    flex-direction: column;
+       
+}
+.l_side img{
+    width: 50%;
+    height: 380px;
+    
+}
+.r_side img{
+    width: 50%;
+    height: 380px;
+   
+}
+
+.up{
+    padding-bottom: 80px;
+    padding-left: 20px;
+}
+.up h6{
+    font-size: 20px;
+    font-weight: 500;
+}
+.up h3{
+    font-size: 40px;
+    font-weight: 500;
+}
+.down{
+    padding-left: 20px;
+}
+.down p{
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.down h5{
+    margin-bottom: 15;
+    font-size: 20px;
+margin-bottom: 20px;
+}
+.down span button{
+    width: 150px;
+    height: 35px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom:20px;
+    font-size: 15px;
+}
+ .bar{
+    padding-top: 70px;
+    font-size: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.bar p{
+    margin-bottom: 10px;
+ }
+.l_side img:hover{
+    cursor: pointer;
+    transition: all ease-in-out;
+    transform: scale(110%);
+}
+.r_side img:hover{
+    cursor: pointer;
+    transition: all ease-in-out;
+    transform: scale(110%);
+}
+
+ /* Page - 4 style */
+ .page_4{
+    width: 100%;
+    height: 350px;
+    padding-left: 70px;
+    padding-right: 70px;
+ }
+ .top{
+    width: 100%;
+    height: auto;
+    display: flex;
+ }
+ .top ul{
+    display: flex;
+    padding-top: 30px;
+   
+ }
+ .top ul li a{
+     text-decoration: none;
+     font-size: 20px;
+     color: black;
+     margin: 25px;
+ }
+ .top ul li {
+    list-style: none;
+ }
+ .top ul li:hover{
+    cursor: pointer;
+    border-bottom:2px solid red;
+ }
+ .bottom{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-top: 30px;
+ }
+ .img1{
+    width: 25%;
+    height: auto;
+    margin-right: 20px;
+}
+ .img2{
+    width: 25%;
+    height: auto;
+    margin-right: 20px;
+ }
+ .img3{
+    width: 25%;
+    height: auto;
+    margin-right: 20px;
+ }
+ .img4{
+    width: 25%;
+    height: auto;
+ }
+ .image{
+    background-color: #f8f8f8;
+    margin-bottom: 20px;
+
+ }
+ .image img{
+    width: 100%;
+    height: 250px;
+ }
+ .des{
+    height:150px;
+    display: flex;
+    flex-direction: column;
+
+ }
+ .des h4{
+    font-size: 27px;
+    font-weight: 400;
+ }
+ .des p{
+    font-size: 18px;
+    padding-top: 2px;
+ }
+#contain-1 h4{
+   padding-top:30px ;
+}
+#contain-1 p{
+    padding-top: 30px;
+}
+#contain-2 h4{
+   padding-top: 30px;
+}
+#contain-2 p{
+   padding-top: 25px;
+} 
+#contain-3 h4{
+    padding-top: 24px;
+}
+#contain-4 h4{
+    padding-top: 20px;
+}
+#contain-4 .display-btn{
+    padding-top: 113px;
+
+}
+  .para{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 230px;
+    /* margin-top: 250px; */
+    padding-bottom: 40px;
+    margin-top: 50px;
+  }
+  
+  .image:hover{
+    cursor: pointer;
+    /* transition: all ease-in-out ;
+    transform: scale(120%); */
+  }
+  .display-btn{
+    width: 100%;
+    height: 100px;
+   
+  }
+  .display-btn button{
+    width: 100%;
+    height: 35px;
+    border: none;
+    margin-top: 20px;
+    background-color: transparent;
+    display: flex;
+    align-items: start;
+
+  }
+.para p:hover{
+    cursor: pointer;
+}
+
+  /* black part */
+.container{
+    width: 100%; 
+    height: auto;
+    background-color: black;
+  
+}
+.container h1{
+    color: white;
+    font-size: 50px;
+    padding-top: 30px;
+    padding-left: 70px;
+}
+.container h1 span:hover{
+    cursor: pointer;
+}
+.one{
+    width: 100%;
+    height: 380px;
+    display: flex;
+    padding-left: 70px;
+}
+.pic{
+    width:65%;
+    height: 380px;
+    display: flex;
+    /* background: url(/OnePlus/20230406-keyboard-pc.jpg.thumb.webp) ; */
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+}
+.pic img{
+    width: 100%;
+    height: auto;
+}
+.pic img:hover{
+    cursor: pointer;
+}
+.text_slide{
+    width: 30%;
+    height: 380px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.text_slide h6{
+    font-size: 20px;
+    padding-top: 2px;
+}
+.text_slide h2{
+    font-size: 40px;
+    padding-top: 15px;
+}
+.text_slide p{
+    padding-top: 130px;
+    padding-bottom: 30px;
+}
+.text_slide a{
+    color: white;
+    font-size: 20px;
+    /* text-decoration: none; */
+}
+.text_slide a:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+/* two design */
+.two{
+    width: 100%;
+    height: 700px;
+    
+}
+.two h1{
+    font-size: 50px;
+    padding-top: 40px;
+}
+.two h2{
+    color: white;
+    font-size: 40px;
+    padding-left: 70px;
+    padding-top: 40px;
+}
+.pic_two{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-left: 50px;
+}
+
+
+
+
+/* Four Div Design  */
+
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+}
+#up{
+    padding-bottom: 70px;
+}
+#up h5{
+    font-size: 20px;
+    color: #504848;
+    margin-bottom: 10px;
+}
+#up h3{
+    font-size: 23px;
+    font-weight: 500;
+}
+.first p{
+    padding-top: 50px;
+    font-size: 17px;
+}
+.first a{
+    padding-top: 25px;
+    color: white;
+    font-size: 15px;
+}
+.first a:hover{
+    cursor: pointer;
+    color: blue;
+}
+.bar{
+    color: white;
+ }
+.three{
+    width: 100%;
+    height: auto;
+    padding-bottom: 60px;
+}
+.pic_three{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+#pic{
+    padding-left: 70px;
+}
+
+/* white container design  */
+.container_two{
+    width: 100%;
+    height: 100vh;
+}
+.w_one{
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+}
+.w_one span{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+.pic_four{
+    width: 100%;
+    height: auto;
+    padding-left: 70px;
+    padding-right: 20px;
+    display: flex;
+}
+.pic_four .pic{
+    width: 66.5%;
+    height: 500px;
+}
+.pic_four .text_slide{
+    color: black;
+}
+.pic_four a{
+    color: black;
+}
+.text_slide1{
+    width: 30%;
+    height: 380px;
+    color: black;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.p-a{
+    width: 100%;
+    height: 80px;
+    margin-top: 130px;
+}
+.text_slide1 h6{
+    font-size: 20px;
+    padding-top: 2px;
+}
+.text_slide1 h2{
+    font-size: 40px;
+    padding-top: 15px;
+}
+.text_slide1 p{
+    padding-top: 130px;
+    padding-bottom: 30px;
+}
+.text_slide1 a{
+    color: black;
+    font-size: 20px;
+    margin-top: 60px;
+    /* text-decoration: none; */
+}
+.text_slide1 a:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+
+
+/* three pic design */
+.three-pic{
+    width: 100%;
+    height: 500px;
+    padding-top: 30px;
+    display: flex;
+    padding-left: 70px;
+  }
+.div1{
+    width: 31%;
+    height: auto;
+    margin-left: 20px;
+}
+.image1{
+    width: 100%;
+    height: 350px;
+    background: url(/OnePlus/card1pc.jpg.thumb.webp);
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+   
+}
+.image2{
+    width: 100%;
+    height: 350px;
+    background: url(/OnePlus/card2pc.jpg.thumb.webp);
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    
+}
+.image3{
+    width: 100%;
+    height: 350px;
+    background: url(/OnePlus/card3pc.jpg.thumb.webp);
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+.text1{
+    width: 100%;
+    height: 150px;
+    padding-top: 23px;
+}
+.text1 h3{
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+.text1 p{
+    padding-bottom: 20px;
+}
+.text1 a{
+    color: black;
+}
+.image1:hover{
+    cursor: pointer;
+}
+.image2:hover{
+    cursor: pointer;
+}
+.image3:hover{
+    cursor: pointer;
+}
+.text1 a:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+/* support section design */
+.support{
+    width: 100%;
+    height: 400px;
+   margin-top: 30px;
+}
+.support-sec{
+    width: 100%;
+    height: 400px;
+    display:  flex;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.support_part{
+    width: 50%;
+    height: 400px;
+    display: flex;
+     background-color: #f8f8f8;
+     margin-top: 30px;
+   }
+.s-img1{
+    width: 100%;
+    height: 400px;
+    background: url(/OnePlus/Helpdesk-PC.jpg.thumb.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+.s-img1:hover{
+    cursor: pointer;
+}
+.s-img2{
+    width: 100%;
+    height:400px;
+    background: url(/OnePlus/Service-Center-desktop.jpg.thumb.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    }
+    .s-img2:hover{
+        cursor: pointer;
+    }
+#s-text1{
+    width: 50%;
+    height:auto;
+    display: flex;
+   
+    flex-direction: column;
+}
+#s-text1 h6{
+    padding-top: 20px;
+    font-size: 23px;
+    color: #706767;
+}
+#s-text1 h4{
+    padding-top: 10px;
+    font-size: 30px;
+}
+#s-text1 p{
+    padding-top: 150px;
+    font-size: 15px;
+}
+#s-text1 a{
+    color: black;
+    padding-top: 25px;
+    font-size: 15px;
+}
+#s-text1 a:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+#s-text2{
+    width: 50%;
+    height:auto;
+    display: flex;
+   
+    flex-direction: column;
+}
+#s-text2 h6{
+    padding-top: 20px;
+    font-size: 23px;
+    color: #706767;
+}
+#s-text2 h4{
+    padding-top: 10px;
+    font-size: 30px;
+}
+#s-text2 p{
+    padding-top: 100px;
+    font-size: 15px;
+}
+#s-text2 a{
+    color: black;
+    padding-top: 25px;
+    font-size: 15px;
+}
+#s-text2 a:hover{
+    color: blue;
+    cursor: pointer;
+}
+/* four border design */
+
+.border{
+    width: 100%;
+    height: 80px;
+    padding-left: 70px;
+    padding-right: 70px;
+    /* display: flex;
+    justify-content: space-between; */
+    margin-top: 250px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.main-border{
+    width: 100%;
+    height:70px;
+    border-bottom: 1px solid rgb(226, 222, 222);
+    border-top: 1px solid rgb(226, 222, 222);
+    display: flex;
+}
+.border span{
+    width: 25%;
+    font-size: 20px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding-left: 10px;
+} 
+.main-border span:first-child{
+    border-right: 1px solid rgb(226, 222, 222);
+}
+.main-border span:nth-child(2){
+    border-right: 1px solid rgb(226, 222, 222);
+}
+.main-border span:nth-child(3){
+    border-right: 1px solid rgb(226, 222, 222);
+}
+.main-border span:hover{
+    cursor: pointer;
+}
+
+
+/* one plus official div */
+.black-slide{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    padding-top: 40px;
+    padding-inline: 70px;
+}
+.black-slide #p{
+    font-size: 20px;
+    color: white;
+    border-bottom: 1px solid white;
+    padding: 20px;
+}
+.sides{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 30px;
+    }
+.left-side{
+    width: 50%;
+    height: 310px;
+    background-image: url(/OnePlus/APPdownload_PC_Red_New.png.thumb.webp);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+.right-side{
+    width: 50%;
+    height:310px;
+    background-image: url(/OnePlus/Subscribe-PC-2card.jpg.thumb.webp);
+    background-position: center;
+    background-size: cover;
+    margin-left: 20px;
+    padding: 20px;
+    
+}
+.left-text{
+    width: 40%;
+    height:315px;
+    color: white;
+}
+.right-text{
+    width: 40%;
+    height:315px ;
+    color: white;
+}
+.left-text h3{
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+    padding-top: 10px;
+}
+.left-side h6{
+    font-size: 17px;
+    color: white;
+    padding-top: 10px;
+}
+.left-side button{
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: 17px;
+    margin-top: 100px;
+    cursor: pointer;
+}
+.right-side h3{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+.right-side h6{
+    font-size: 17px;
+    color: white;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.right-side p{
+    color: rgb(120, 110, 110);
+    font-size: 16px;
+    padding-top: 15px;
+}
+.right-side button{
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: 17px;
+    margin-top: 8px;
+}
+.right-text button:hover{
+    cursor: pointer;
+}
+/* end design  */
+
+.end-sec{
+    width: 100%;
+    height: 700px;
+    background-color: white;
+    display: flex;
+    padding-top: 40px;
+    padding-inline: 110px;
+}
+
+.phone{
+    width: 20%;
+    height: auto;   
+}
+.phone h6{
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.phone ul{
+    list-style: none;
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 30px;
+    cursor: pointer;
+    
+    }
+
+.phone ul li{
+    margin-bottom: 30px;
+}
+.phone ul li a{
+    text-decoration: none;
+    color:rgb(160, 150, 150);
+    font-weight: 900;
+   
+}
+
+
+.store{
+    width: 20%;
+    height: auto; 
+}
+.store h6{
+    font-size: 20px;
+    font-weight: 500;   
+}
+.store ul{
+    list-style: none;
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top:30px;
+    cursor: pointer;
+}
+.store ul li{
+    margin-bottom: 30px;
+}
+.store ul li a{
+    text-decoration: none;
+    color:rgb(160, 150, 150);
+    font-weight: 900;
+   
+}
+
+
+
+
+.support-s{
+    width: 20%;
+    height: auto; 
+}
+.support-s h6{
+    font-size: 20px;
+    font-weight: 500;   
+}
+.support-s ul{
+    list-style: none;
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+.support-s ul li{
+    margin-bottom: 30px;
+}
+.support-s ul li a{
+    text-decoration: none;
+    color:rgb(160, 150, 150);
+    font-weight: 900;
+   
+}
+
+
+
+
+.Explore{
+    width: 20%;
+    height: auto; 
+}
+.Explore h6{
+    font-size: 20px;
+    font-weight: 500;   
+}
+.Explore ul{
+    list-style: none;
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.Explore ul li{
+    margin-bottom: 30px;
+}
+.Explore ul li a{
+    text-decoration: none;
+    color:rgb(160, 150, 150);
+    font-weight: 900;
+   
+}
+
+
+.programs{
+    width: 20%;
+    height: auto; 
+}
+.programs h6{
+    font-size: 20px;
+    font-weight: 500;   
+}
+.programs ul{
+    list-style: none;
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.programs ul li{
+    margin-bottom: 30px;
+}
+.programs ul li a{
+    text-decoration: none;
+    color:rgb(160, 150, 150);
+    font-weight: 900;
+   
+}
+
+/* hover property */
+.phone ul li a:hover{
+    color: black;
+}
+
+.store ul li a:hover{
+    color: black;
+}
+
+.support-s ul li a:hover{
+    color: black;
+}
+
+.Explore ul li a:hover{
+    color: black;
+}
+
+.programs ul li a:hover{
+    color: black;
+}
+
+
+/* contact section */
+
+.contact{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-bottom: 1px solid rgb(160, 150, 150);
+}
+#list{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    color:rgb(160, 150, 150);
+    font-size: 17px;
+}
+#icon{
+    width: 20%;
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+    color: rgb(160, 150, 150);
+    font-size: 17px;
+    list-style: none;
+}
+#icon li a{
+    color: rgb(42, 125, 169);
+    font-size: 20px;
+    text-decoration: none;
+}
+.ic{
+ border-radius: none;
+ font-size: 25px;
+ cursor: pointer;
+}
+.ic:hover{
+    color: black;
+}
+
+/* footer */
+
+footer{
+    width: 100%;
+    height: 120px;
+   
+}
+.first-line{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    /* align-items: center;
+    justify-content: space-between; */
+}
+.btn button:hover{
+    cursor: pointer;
+}
+.btn{
+    width: 60%;
+    height: 40px;
+    padding-left: 100px;
+}
+.btn button{
+    width: 30%;
+    height: 100px;
+    font-size: 15px;
+    background-color: transparent;
+    border: none;
+}
+.list-end{
+    width:60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 100px;
+    list-style: none;
+}
+.list-end li a{
+    color: black;
+    font: 6px;
+    text-decoration: none;
+
+}
+
+.second-line{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 50px;
+}
+.second-line span img:hover{
+    cursor: pointer;
+}
