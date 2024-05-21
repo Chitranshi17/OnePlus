@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    font-size: 62.5%;
+}
 .main_container{
     width: 100%;
     height: auto;
@@ -10,12 +13,12 @@
 }
 nav{
     width: 100%;
-    height: 80px;
+    height: 8rem;
     background-color: white;
     display: flex;
     /* align-items: center; */
     justify-content: space-between;
-    padding-top:  20px;
+    padding-top:  2rem;
 }
 
 nav .left_nav{
@@ -25,11 +28,11 @@ nav .left_nav ul{
     display: flex;
 }
 nav ul li{
-    margin-top: 14px;
+    margin-top: 1.4rem;
 }  
 nav .left_nav ul li a{
 
-    margin: 15px;
+    margin: 1.5rem;
     text-decoration: none;
     color: black;
 }
@@ -40,7 +43,7 @@ nav .right_nav ul{
     display: flex;
 }
 nav .right_nav ul li a{
-    margin: 15px;
+    margin: 1.5rem;
     text-decoration: none;
     color: black;
 }
@@ -48,8 +51,8 @@ nav .right_nav ul li{
     list-style: none;
 }
 nav img{
-    width:160px;
-    margin-bottom: 10px;
+    width:16rem;
+    margin-bottom: 1rem;
     /* height: 40px; */
 }
 .left_nav ul li:hover{
@@ -61,22 +64,31 @@ nav img{
 
 /* side-logo */
 .side-logo{
-     width: 50px;
-     height:50px;
+     width: 8rem;
+     height: 8rem;
      position: fixed;
-     top: 500px;
-     left: 20px;
-     border-radius: 50px;
+     top: 70rem;
+     left: 2rem;
+     /* right: 3rem; */
+     border-radius: 5rem;
      background-color: white;
      display: flex;
      align-items: center;
      justify-content: center;
 }
+.slider-logo{
+    width: 75%;
+    height: 75%;
+    border-radius: 50%;
+    background: url(./Image/slider-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 .side-logo img{
     width: 75%;
     height: auto;
     background-position: center;
-   
     object-fit: cover;
 }
 .side-logo img:hover{
@@ -90,32 +102,32 @@ nav img{
 /* page  */
 .page{
     width: 100%;
-    height: 610px;
-    background: url(/OnePlus/3_OP11-Buds-Pad-desktop.jpg.thumb.webp);
+    height: 61rem;
+    background: url(./Image/3_OP11-Buds-Pad-desktop.jpg.thumb.webp);
     background-position: center;
     background-size: cover;
-    padding-left: 35px;
+    padding-left: 3.5rem;
 }
 .page h1{
-    font-size: 35px;
-    padding-top: 35px;
+    font-size: 3.5rem;
+    padding-top: 3.5rem;
 }
 .page p{
-    font-size: 17px;
-    padding-top: 380px;
+    font-size: 1.7rem;
+    padding-top: 38rem;
 }
 .page button{
-    width: 130px;
-    height: 30px;
+    width: 13rem;
+    height: 3rem;
     color: white;
     font-weight: 500;
     background-color: black;
-    border: 1px solid black;
-    border-radius: 2px;
-    margin-top: 20px;
+    border: .1rem solid black;
+    border-radius: .2rem;
+    margin-top: 2rem;
 }
 .page a{
-    margin-left: 13px;
+    margin-left: 1.3rem;
     color: black;
 }
 .page h1:hover{
@@ -138,20 +150,24 @@ nav img{
 /* page - 2 */
 .page_2{
     width: 100%;
-    height: 400px;
+    height: 40rem;
     display: flex;
-    padding-top: 70px;
-    padding-left: 70px;
-    padding-right: 70px;
-    padding-bottom: 50px;
+    padding-top: 7rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    padding-bottom: 5rem;
 }
 .left {
     width: 30%;
-    height: 400px;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .right {
     width: 70%;
-    height: 400px;
+    height: 40rem;
 }
 .right img{
     width: 100%;
@@ -162,15 +178,19 @@ nav img{
     object-fit: cover;
 }
 .text{
-    padding-right: 30px;
-    padding-top: 10px;
+    width: 95%;
+    height: 95%;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-around;
 }
 .text h1{
-    font-size: 50px;
-    margin-bottom: 210px; 
+    font-size: 5rem;
+    /* margin-bottom: 210px;  */
 }
 .text p{
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 .text span{
     width: 100%;
@@ -179,9 +199,9 @@ nav img{
     justify-content: space-between;
 }
 .text span button{
-    margin-top: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
+    margin-top: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
     width: 48%;
     height: 40px;
     border: 1px solid black;
@@ -207,57 +227,64 @@ nav img{
 
 .page_3{
     width: 100%;
-    height: 380px;
+    height: 38rem;
     display: flex;
-    margin-top: 200px;
-    /* background-color:white; */
-    padding-right: 70px;
-    padding-left: 70px;
-
-    /* margin-right: 70px; */
+    margin-top: 20rem;
+    padding-right: 7rem;
+    padding-left: 7rem;
+    /* margin-right: 7rem; */
     display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 .l_side{
     width: 50%;
-    height: 380px;
+    height: 99%;
     display: flex;
     background-color:  #f8f8f8;
-    margin-right: 10px
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .r_side{
     width: 50%;
-    height: 380px;
+    height: 99%;
     display: flex;
     background-color:  #f8f8f8;
-    margin-left: 10px;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 .t_side{
     width:50% ;
-    height: 380px;
+    height: 98%;
     display: flex;
     align-items: start;
-    /* justify-content: center; */
+    justify-content: space-around;
     flex-direction: column;
-       
 }
 .l_side img{
     width: 50%;
-    height: 380px;
+    height: 38rem;
     
 }
 .r_side img{
     width: 50%;
-    height: 380px;
+    height: 38rem;
    
 }
 
 .up{
-    padding-bottom: 80px;
-    padding-left: 20px;
+    width: 100%;
+    height: 55%;
+    padding-bottom: 8rem;
+    padding-left: 2rem;
 }
 .up h6{
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 500;
 }
 .up h3{
@@ -265,33 +292,46 @@ nav img{
     font-weight: 500;
 }
 .down{
-    padding-left: 20px;
+    width: 100% ;
+    height: 45%;
+    padding-left: 2rem;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-around;
 }
 .down p{
-    margin-bottom: 15px;
-    font-size: 18px;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
 }
 .down h5{
     margin-bottom: 15;
-    font-size: 20px;
-margin-bottom: 20px;
+    font-size: 2rem;
+margin-bottom: 2rem;
+}
+.btn-set{
+    width: 90%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .down span button{
-    width: 150px;
-    height: 35px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    margin-bottom:20px;
-    font-size: 15px;
+    width: 15rem;
+    height: 3.5rem;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    margin-bottom:2rem;
+    font-size: 1.5rem;
 }
  .bar{
-    padding-top: 70px;
-    font-size: 20px;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-top: 7rem;
+    font-size: 2rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
 }
 .bar p{
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
  }
 .l_side img:hover{
     cursor: pointer;
@@ -307,9 +347,9 @@ margin-bottom: 20px;
  /* Page - 4 style */
  .page_4{
     width: 100%;
-    height: 350px;
-    padding-left: 70px;
-    padding-right: 70px;
+    height: 35rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
  }
  .top{
     width: 100%;
@@ -318,14 +358,14 @@ margin-bottom: 20px;
  }
  .top ul{
     display: flex;
-    padding-top: 30px;
+    padding-top: 3rem;
    
  }
  .top ul li a{
      text-decoration: none;
-     font-size: 20px;
+     font-size: 2rem;
      color: black;
-     margin: 25px;
+     margin: 2.5rem;
  }
  .top ul li {
     list-style: none;
@@ -338,22 +378,22 @@ margin-bottom: 20px;
     width: 100%;
     height: auto;
     display: flex;
-    padding-top: 30px;
+    padding-top: 3rem;
  }
  .img1{
     width: 25%;
     height: auto;
-    margin-right: 20px;
+    margin-right: 2rem;
 }
  .img2{
     width: 25%;
     height: auto;
-    margin-right: 20px;
+    margin-right: 2rem;
  }
  .img3{
     width: 25%;
     height: auto;
-    margin-right: 20px;
+    margin-right: 2rem;
  }
  .img4{
     width: 25%;
@@ -361,59 +401,59 @@ margin-bottom: 20px;
  }
  .image{
     background-color: #f8f8f8;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 
  }
  .image img{
     width: 100%;
-    height: 250px;
+    height: 25rem;
  }
  .des{
-    height:150px;
+    height:15rem;
     display: flex;
     flex-direction: column;
 
  }
  .des h4{
-    font-size: 27px;
+    font-size: 2.7rem;
     font-weight: 400;
  }
  .des p{
-    font-size: 18px;
-    padding-top: 2px;
+    font-size: 1.8rem;
+    padding-top: 2rem;
  }
 #contain-1 h4{
-   padding-top:30px ;
+   padding-top:3rem ;
 }
 #contain-1 p{
-    padding-top: 30px;
+    padding-top: 3rem;
 }
 #contain-2 h4{
-   padding-top: 30px;
+   padding-top: 3rem;
 }
 #contain-2 p{
-   padding-top: 25px;
+   padding-top: 2.5rem;
 } 
 #contain-3 h4{
-    padding-top: 24px;
+    padding-top: 2.4rem;
 }
 #contain-4 h4{
-    padding-top: 20px;
+    padding-top: 2rem;
 }
 #contain-4 .display-btn{
-    padding-top: 113px;
+    padding-top: 11.3rem;
 
 }
   .para{
     width: 100%;
-    height: 30px;
+    height: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 230px;
-    /* margin-top: 250px; */
-    padding-bottom: 40px;
-    margin-top: 50px;
+    padding-top: 23rem;
+    /* margin-top: 25rem; */
+    padding-bottom: 4rem;
+    margin-top: 5rem;
   }
   
   .image:hover{
@@ -423,14 +463,14 @@ margin-bottom: 20px;
   }
   .display-btn{
     width: 100%;
-    height: 100px;
+    height: 10rem;
    
   }
   .display-btn button{
     width: 100%;
-    height: 35px;
+    height: 3.5rem;
     border: none;
-    margin-top: 20px;
+    margin-top: .2rem;
     background-color: transparent;
     display: flex;
     align-items: start;
@@ -449,29 +489,32 @@ margin-bottom: 20px;
 }
 .container h1{
     color: white;
-    font-size: 50px;
-    padding-top: 30px;
-    padding-left: 70px;
+    font-size: 5rem;
+    padding-top: 3rem;
+    padding-left: 7rem;
 }
 .container h1 span:hover{
     cursor: pointer;
 }
 .one{
     width: 100%;
-    height: 380px;
+    height: 38rem;
     display: flex;
-    padding-left: 70px;
+    padding-left: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 .pic{
     width:65%;
-    height: 380px;
+    height: 38rem;
     display: flex;
     /* background: url(/OnePlus/20230406-keyboard-pc.jpg.thumb.webp) ; */
     background-size: cover;
     background-position: center;
     object-fit: cover;
     background-repeat: no-repeat;
-    padding-top: 30px;
+    padding-top: 3rem;
 }
 .pic img{
     width: 100%;
@@ -482,26 +525,31 @@ margin-bottom: 20px;
 }
 .text_slide{
     width: 30%;
-    height: 380px;
+    height: 38rem;
     color: white;
-    padding-left: 20px;
-    padding-top: 30px;
+    padding-left: 2rem;
+    padding-top: 3rem;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
 }
 .text_slide h6{
-    font-size: 20px;
-    padding-top: 2px;
+    font-size: 2.5rem;
+    padding-top: .2rem;
 }
 .text_slide h2{
-    font-size: 40px;
-    padding-top: 15px;
+    font-size: 1.8rem;
+    padding-top: 1.5rem;
 }
 .text_slide p{
-    padding-top: 130px;
-    padding-bottom: 30px;
+    font-size: 1.6rem;
+    padding-top: 13rem;
+    padding-bottom: 3rem;
 }
 .text_slide a{
     color: white;
-    font-size: 20px;
+    font-size: 2rem;
     /* text-decoration: none; */
 }
 .text_slide a:hover{
@@ -512,24 +560,24 @@ margin-bottom: 20px;
 /* two design */
 .two{
     width: 100%;
-    height: 700px;
+    height: 70rem;
     
 }
 .two h1{
-    font-size: 50px;
-    padding-top: 40px;
+    font-size: 5rem;
+    padding-top: 4rem;
 }
 .two h2{
     color: white;
-    font-size: 40px;
-    padding-left: 70px;
-    padding-top: 40px;
+    font-size: 4rem;
+    padding-left: 7rem;
+    padding-top: 4rem;
 }
 .pic_two{
     width: 100%;
     height: auto;
     display: flex;
-    padding-left: 50px;
+    padding-left: 5rem;
 }
 
 
@@ -538,32 +586,36 @@ margin-bottom: 20px;
 /* Four Div Design  */
 
 .first{
+    width: 100%;
+    height: 95%;
     display: flex;
+    align-items: start;
+    justify-content: space-around;
     flex-direction: column;
     justify-content: space-between;
-    padding: 20px;
     color: white;
+    padding: 1.4rem;
 }
 #up{
-    padding-bottom: 70px;
+    width: 100%;
+    height: 100%;
 }
 #up h5{
-    font-size: 20px;
+    font-size: 2.5rem;
     color: #504848;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 #up h3{
-    font-size: 23px;
+    font-size: 2rem;
     font-weight: 500;
 }
 .first p{
-    padding-top: 50px;
-    font-size: 17px;
+    font-size: 1.4rem;
 }
 .first a{
-    padding-top: 25px;
+    padding-top: 2.5rem;
     color: white;
-    font-size: 15px;
+    font-size: 1.5rem;
 }
 .first a:hover{
     cursor: pointer;
@@ -575,16 +627,32 @@ margin-bottom: 20px;
 .three{
     width: 100%;
     height: auto;
-    padding-bottom: 60px;
+    padding-bottom: 6rem;
 }
 .pic_three{
     width: 100%;
     height: auto;
     display: flex;
 }
-
 #pic{
-    padding-left: 70px;
+    padding-left: 7rem;
+}
+.left-img , .right-img{
+    background-color: transparent;
+}
+.left-img img{
+    width: 50%;
+    height: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-img img{
+    width: 50%;
+    height: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* white container design  */
@@ -595,7 +663,7 @@ margin-bottom: 20px;
 .w_one{
     width: 100%;
     height: auto;
-    padding-bottom: 30px;
+    padding-bottom: 3rem;
 }
 .w_one span{
     display: flex;
@@ -604,14 +672,14 @@ margin-bottom: 20px;
 }
 .pic_four{
     width: 100%;
-    height: auto;
-    padding-left: 70px;
-    padding-right: 20px;
+    height: 55rem;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 .pic_four .pic{
     width: 66.5%;
-    height: 500px;
+    height: 50rem;
 }
 .pic_four .text_slide{
     color: black;
@@ -621,58 +689,81 @@ margin-bottom: 20px;
 }
 .text_slide1{
     width: 30%;
-    height: 380px;
+    height: 85%;
     color: black;
-    padding-left: 20px;
-    padding-top: 30px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 2rem;
 }
 .p-a{
     width: 100%;
-    height: 80px;
-    margin-top: 130px;
+    height: 8rem;
+    margin-top: 13rem;
 }
 .text_slide1 h6{
-    font-size: 20px;
-    padding-top: 2px;
+    font-size: 2rem;
+    padding-top: .2rem;
 }
 .text_slide1 h2{
-    font-size: 40px;
-    padding-top: 15px;
+    font-size: 4rem;
+    padding-top: 1.5rem;
 }
 .text_slide1 p{
-    padding-top: 130px;
-    padding-bottom: 30px;
+    font-size: 1.5rem;
 }
 .text_slide1 a{
     color: black;
-    font-size: 20px;
-    margin-top: 60px;
+    font-size: 2rem;
+    margin-top: 6rem;
     /* text-decoration: none; */
 }
 .text_slide1 a:hover{
     cursor: pointer;
     color: blue;
 }
-
+.pic{
+    width: 65%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.piv img{
+    width: 100%;
+    height: 100%;
+}
 
 
 /* three pic design */
 .three-pic{
     width: 100%;
-    height: 500px;
-    padding-top: 30px;
+    height: 50rem;
     display: flex;
-    padding-left: 70px;
+    padding-left: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
   }
 .div1{
     width: 31%;
-    height: auto;
-    margin-left: 20px;
+    height: 100%;
+    margin-bottom: 2rem;
+}
+.div1 h3{
+    font-size: 2rem;
+}
+.div1 p{
+    font-size: 1.4rem;
+}
+.div1 a{
+    font-size: 1.6rem;
 }
 .image1{
     width: 100%;
-    height: 350px;
-    background: url(/OnePlus/card1pc.jpg.thumb.webp);
+    height: 35rem;
+    background: url(./Image/card1pc.jpg.thumb.webp);
     background-position: center;
     background-size: cover;
     object-fit: cover;
@@ -680,8 +771,8 @@ margin-bottom: 20px;
 }
 .image2{
     width: 100%;
-    height: 350px;
-    background: url(/OnePlus/card2pc.jpg.thumb.webp);
+    height: 35rem;
+    background: url(./Image/card2pc.jpg.thumb.webp);
     background-position: center;
     background-size: cover;
     object-fit: cover;
@@ -689,23 +780,27 @@ margin-bottom: 20px;
 }
 .image3{
     width: 100%;
-    height: 350px;
-    background: url(/OnePlus/card3pc.jpg.thumb.webp);
+    height: 35rem;
+    background: url(./Image/card3pc.jpg.thumb.webp);
     background-position: center;
     background-size: cover;
     object-fit: cover;
 }
 .text1{
     width: 100%;
-    height: 150px;
-    padding-top: 23px;
+    height: 18rem;
+    padding-top: 2.3rem;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    flex-direction: column;
 }
 .text1 h3{
-    font-size: 24px;
-    padding-bottom: 20px;
+    font-size: 2.4rem;
+    padding-bottom: 2rem;
 }
 .text1 p{
-    padding-bottom: 20px;
+    padding-bottom: 2rem;
 }
 .text1 a{
     color: black;
@@ -727,27 +822,39 @@ margin-bottom: 20px;
 /* support section design */
 .support{
     width: 100%;
-    height: 400px;
-   margin-top: 30px;
+    height: 45rem;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5rem;
+    padding-bottom: 7rem;
 }
 .support-sec{
     width: 100%;
-    height: 400px;
+    height: 98%;
     display:  flex;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-inline: 6rem;
+    align-items: center;
+    justify-content: center;
+}
+.support-part-content{
+    width: 98%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 .support_part{
     width: 50%;
-    height: 400px;
+    height: 95%;
     display: flex;
      background-color: #f8f8f8;
-     margin-top: 30px;
    }
 .s-img1{
     width: 100%;
-    height: 400px;
-    background: url(/OnePlus/Helpdesk-PC.jpg.thumb.webp);
+    height: 100%;
+    background: url(./Image/Helpdesk-PC.jpg.thumb.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -758,40 +865,37 @@ margin-bottom: 20px;
 }
 .s-img2{
     width: 100%;
-    height:400px;
-    background: url(/OnePlus/Service-Center-desktop.jpg.thumb.webp);
+    height: 100%;
+    background: url(./Image/Service-Center-desktop.jpg.thumb.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     object-fit: cover;
-    }
+}
     .s-img2:hover{
         cursor: pointer;
     }
 #s-text1{
     width: 50%;
-    height:auto;
+    height: 90%;
     display: flex;
-   
     flex-direction: column;
+    justify-content: space-around;
+    padding-left: 1.5rem;
 }
 #s-text1 h6{
-    padding-top: 20px;
-    font-size: 23px;
+    font-size: 2rem;
     color: #706767;
 }
 #s-text1 h4{
-    padding-top: 10px;
-    font-size: 30px;
+    font-size: 2.5em;
 }
 #s-text1 p{
-    padding-top: 150px;
-    font-size: 15px;
+    font-size: 1.5rem;
 }
 #s-text1 a{
     color: black;
-    padding-top: 25px;
-    font-size: 15px;
+    font-size: 1.5rem;
 }
 #s-text1 a:hover{
     color: blue;
@@ -801,27 +905,24 @@ margin-bottom: 20px;
 #s-text2{
     width: 50%;
     height:auto;
-    display: flex;
-   
+    display: flex; 
     flex-direction: column;
+    justify-content: space-around;
+    padding: 2rem;
 }
 #s-text2 h6{
-    padding-top: 20px;
-    font-size: 23px;
+    font-size: 2rem;
     color: #706767;
 }
 #s-text2 h4{
-    padding-top: 10px;
-    font-size: 30px;
+    font-size: 2.5rem;
 }
 #s-text2 p{
-    padding-top: 100px;
-    font-size: 15px;
+    font-size: 1.5rem;
 }
 #s-text2 a{
     color: black;
-    padding-top: 25px;
-    font-size: 15px;
+    font-size: 1.5rem;
 }
 #s-text2 a:hover{
     color: blue;
@@ -831,41 +932,39 @@ margin-bottom: 20px;
 
 .border{
     width: 100%;
-    height: 80px;
-    padding-left: 70px;
-    padding-right: 70px;
+    height: 8rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
     /* display: flex;
     justify-content: space-between; */
-    margin-top: 250px;
-    margin-bottom: 50px;
+    margin-bottom: 5rem;
     display: flex;
     align-items: center;
     justify-content: center;
-   
 }
 .main-border{
     width: 100%;
-    height:70px;
-    border-bottom: 1px solid rgb(226, 222, 222);
-    border-top: 1px solid rgb(226, 222, 222);
+    height:7rem;
+    border-bottom: .1rem solid rgb(226, 222, 222);
+    border-top: .1rem solid rgb(226, 222, 222);
     display: flex;
 }
 .border span{
     width: 25%;
-    font-size: 20px;
+    font-size: 2rem;
     display: flex;
     /* justify-content: center; */
     align-items: center;
-    padding-left: 10px;
+    padding-left: 1rem;
 } 
 .main-border span:first-child{
-    border-right: 1px solid rgb(226, 222, 222);
+    border-right: .1rem solid rgb(226, 222, 222);
 }
 .main-border span:nth-child(2){
-    border-right: 1px solid rgb(226, 222, 222);
+    border-right: .1rem solid rgb(226, 222, 222);
 }
 .main-border span:nth-child(3){
-    border-right: 1px solid rgb(226, 222, 222);
+    border-right: .1rem solid rgb(226, 222, 222);
 }
 .main-border span:hover{
     cursor: pointer;
@@ -875,97 +974,103 @@ margin-bottom: 20px;
 /* one plus official div */
 .black-slide{
     width: 100%;
-    height: 500px;
+    height: 50rem;
     background-color: black;
-    padding-top: 40px;
-    padding-inline: 70px;
+    /* padding-top: 4rem; */
+    padding-inline: 7rem;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
 }
 .black-slide #p{
-    font-size: 20px;
+    font-size: 2.5rem;
     color: white;
-    border-bottom: 1px solid white;
-    padding: 20px;
+    border-bottom: .1rem solid white;
 }
 .sides{
     width: 100%;
-    height: auto;
+    height: 90%;
     display: flex;
-    margin-top: 30px;
+    align-items: center;
+    justify-content: space-between;
     }
 .left-side{
-    width: 50%;
-    height: 310px;
-    background-image: url(/OnePlus/APPdownload_PC_Red_New.png.thumb.webp);
+    width: 48%;
+    height: 75%;
+    background-image: url(./Image/APPdownload_PC_Red_New.png.thumb.webp);
     background-size: cover;
     background-position: center;
-    padding: 20px;
+    /* padding: 2rem; */
 }
 .right-side{
-    width: 50%;
-    height:310px;
-    background-image: url(/OnePlus/Subscribe-PC-2card.jpg.thumb.webp);
+    width: 48%;
+    height: 75%;
+    background-image: url(./Image/Subscribe-PC-2card.jpg.thumb.webp);
     background-position: center;
     background-size: cover;
-    margin-left: 20px;
-    padding: 20px;
-    
 }
 .left-text{
     width: 40%;
-    height:315px;
+    height: 98%;
     color: white;
+    padding: 2rem;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
 }
 .right-text{
     width: 40%;
-    height:315px ;
+    height: 98%;
     color: white;
+    padding: 2rem;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
 }
 .left-text h3{
-    font-size: 30px;
+    font-size: 2.2rem;
     color: white;
     font-weight: 500;
-    padding-top: 10px;
 }
 .left-side h6{
-    font-size: 17px;
+    font-size: 1.4rem;
     color: white;
-    padding-top: 10px;
 }
 .left-side button{
     width: 100%;
-    height: 40px;
+    height: 4rem;
     background-color: transparent;
-    border: 1px solid white;
+    border: .1rem solid white;
     color: white;
-    font-size: 17px;
-    margin-top: 100px;
+    font-size: 1.4rem;
     cursor: pointer;
 }
 .right-side h3{
     color: white;
-    font-size: 30px;
+    font-size: 2.2rem;
     font-weight: 500;
-    padding-top: 10px;
+    padding-top: 1rem;
 }
 .right-side h6{
-    font-size: 17px;
+    font-size: 1.6rem;
     color: white;
     font-weight: 400;
-    padding-top: 10px;
 }
 .right-side p{
     color: rgb(120, 110, 110);
-    font-size: 16px;
-    padding-top: 15px;
+    font-size: 1.6rem;
 }
-.right-side button{
+.right-side .right-text button{
     width: 100%;
-    height: 40px;
+    height: 4rem;
     background-color: transparent;
-    border: 1px solid white;
+    border: .1rem solid white;
     color: white;
-    font-size: 17px;
-    margin-top: 8px;
+    font-size: 1.6rem;
+    /* margin-top: .8rem; */
 }
 .right-text button:hover{
     cursor: pointer;
@@ -974,63 +1079,58 @@ margin-bottom: 20px;
 
 .end-sec{
     width: 100%;
-    height: 700px;
+    height: 60rem;
     background-color: white;
     display: flex;
-    padding-top: 40px;
-    padding-inline: 110px;
+    padding: 3rem;
 }
-
 .phone{
     width: 20%;
-    height: auto;   
+    height: 100%;
+    padding: 1.3rem;
 }
 .phone h6{
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 500;
-
 }
 .phone ul{
+    width: 98%;
+    height: 90%;
     list-style: none;
-    font-size: 17px;
+    font-size: 1.7rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-top: 30px;
+    margin-top: 3rem;
     cursor: pointer;
-    
     }
 
-.phone ul li{
-    margin-bottom: 30px;
-}
+
 .phone ul li a{
     text-decoration: none;
     color:rgb(160, 150, 150);
-    font-weight: 900;
-   
+    font-weight: 900;   
 }
 
 
 .store{
     width: 20%;
-    height: auto; 
+    height: 100%; 
 }
 .store h6{
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 500;   
 }
 .store ul{
+    width: 98%;
+    height: 90%;
     list-style: none;
-    font-size: 17px;
+    font-size: 1.7rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-top:30px;
+    margin-top:3rem;
     cursor: pointer;
-}
-.store ul li{
-    margin-bottom: 30px;
 }
 .store ul li a{
     text-decoration: none;
@@ -1044,83 +1144,76 @@ margin-bottom: 20px;
 
 .support-s{
     width: 20%;
-    height: auto; 
+    height: 100%; 
 }
 .support-s h6{
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 500;   
 }
 .support-s ul{
+    width: 98%;
+    height: 90%;
     list-style: none;
-    font-size: 17px;
+    font-size: 1.7rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-top: 30px;
+    margin-top: 3rem;
     cursor: pointer;
 
-}
-.support-s ul li{
-    margin-bottom: 30px;
 }
 .support-s ul li a{
     text-decoration: none;
     color:rgb(160, 150, 150);
     font-weight: 900;
-   
 }
-
-
-
 
 .Explore{
     width: 20%;
-    height: auto; 
+    height: 100%; 
 }
 .Explore h6{
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 500;   
 }
 .Explore ul{
+    width: 98%;
+    height: 90%;
     list-style: none;
-    font-size: 17px;
+    font-size: 1.7rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-top: 30px;
+    margin-top: 3rem;
     cursor: pointer;
 }
-.Explore ul li{
-    margin-bottom: 30px;
-}
+
 .Explore ul li a{
     text-decoration: none;
     color:rgb(160, 150, 150);
     font-weight: 900;
-   
 }
-
 
 .programs{
     width: 20%;
-    height: auto; 
+    height: 40%; 
 }
 .programs h6{
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 500;   
 }
 .programs ul{
+    width: 98%;
+    height: 50%;
     list-style: none;
-    font-size: 17px;
+    font-size: 1.7rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-top: 30px;
+    margin-top: 3rem;
     cursor: pointer;
 }
-.programs ul li{
-    margin-bottom: 30px;
-}
+
 .programs ul li a{
     text-decoration: none;
     color:rgb(160, 150, 150);
@@ -1154,13 +1247,13 @@ margin-bottom: 20px;
 
 .contact{
     width: 100%;
-    height: 60px;
+    height: 6rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-  padding-left: 50px;
-  padding-right: 50px;
-  border-bottom: 1px solid rgb(160, 150, 150);
+  padding-left: 5rem;
+  padding-right: 5rem;
+  border-bottom: .1rem solid rgb(160, 150, 150);
 }
 #list{
     width: 30%;
@@ -1169,7 +1262,7 @@ margin-bottom: 20px;
     justify-content: space-around;
     list-style: none;
     color:rgb(160, 150, 150);
-    font-size: 17px;
+    font-size: 1.7rem;
 }
 #icon{
     width: 20%;
@@ -1177,17 +1270,17 @@ margin-bottom: 20px;
     align-items: end;
     justify-content: space-around;
     color: rgb(160, 150, 150);
-    font-size: 17px;
+    font-size: 1.7rem;
     list-style: none;
 }
 #icon li a{
     color: rgb(42, 125, 169);
-    font-size: 20px;
+    font-size: 2rem;
     text-decoration: none;
 }
 .ic{
  border-radius: none;
- font-size: 25px;
+ font-size: 2.5rem;
  cursor: pointer;
 }
 .ic:hover{
@@ -1198,12 +1291,12 @@ margin-bottom: 20px;
 
 footer{
     width: 100%;
-    height: 120px;
+    height: 12rem;
    
 }
 .first-line{
     width: 100%;
-    height: 100px;
+    height: 10rem;
     display: flex;
     /* align-items: center;
     justify-content: space-between; */
@@ -1213,13 +1306,13 @@ footer{
 }
 .btn{
     width: 60%;
-    height: 40px;
-    padding-left: 100px;
+    height: 4rem;
+    padding-left: 10rem;
 }
 .btn button{
     width: 30%;
-    height: 100px;
-    font-size: 15px;
+    height: 10rem;
+    font-size: 1.5rem;
     background-color: transparent;
     border: none;
 }
@@ -1228,26 +1321,137 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding-right: 100px;
+    padding-right: 10rem;
     list-style: none;
 }
 .list-end li a{
     color: black;
-    font: 6px;
+    font: .6rem;
     text-decoration: none;
 
 }
 
 .second-line{
     width: 100%;
-    height: 100px;
+    height: 10rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 100px;
-    padding-right: 100px;
-    margin-bottom: 50px;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    margin-bottom: 5rem;
 }
 .second-line span img:hover{
     cursor: pointer;
+}
+.menu-bar{
+    display: none;
+}
+
+
+
+
+
+
+@media (max-width:768px) {
+    html{
+        font-size: 40%;
+    }
+    .main_container{
+        width:100%;
+        height:auto;
+    }    
+    .main_container nav{
+        width: 100%;
+        height: 9rem;
+        padding-inline: 3rem;
+    }
+    .left_nav img{
+        width: 80%;
+        height: 70%;
+    }
+    .none a i{
+        font-size: 2.4rem;
+    }
+    .page_2{
+        width: 100%;
+        height: 90rem;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .page_2 .left{
+        width: 100%;
+        height: 40%;
+    }
+    .page_2 .right{
+        width: 100%;
+        height: 60%;
+    }
+    .page_3{
+        width: 100%;
+        height: 90rem;
+        align-items: center;
+        flex-direction: column-reverse;
+        margin-top: .5rem;
+        justify-content: space-around;
+    }
+    .page_3 .l_side{
+        width: 100%;
+        height: 48%;
+    }
+    .page_3 .r_side{
+        width: 100%;
+        height: 48%;
+    }
+    .page_4 {
+        display: none;
+    }
+    .para{
+        padding: 0px;
+        margin-top: 2rem;
+    }
+    .para p{
+        font-size: 2rem;
+    }
+    .bar{
+        padding-top: 2px;
+    }
+    .container{
+        width: 100%;
+        height: auto;
+        padding-block: 3rem;
+        margin-top: 2rem;
+    }
+
+    .left_nav ul li{
+        display: none;
+    }
+    .right_nav ul li{
+        display: none;
+    }
+    .right_nav ul .none{
+        display: inline;
+        font-size: 3rem;
+    }
+    .menu-bar{
+        display: inline;
+        font-size: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .left_nav{
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .left_nav img{
+        width: 70%;
+    }
+    .container_two{
+        width: 100%;
+        height: auto;
+        margin-top: 3rem;
+    }
 }
